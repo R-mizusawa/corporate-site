@@ -448,36 +448,31 @@ header{
   }
 
 
-    th{
-      @include fontsize(14);
-      padding: 20px 0 20px 20px;
-      color: #626262;
-    }
-    // th
-    
-
-    table{
-      
-      border-collapse: collapse;
-    
-
-
     tr{
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
+
     }
+    // tr
+    
+    th{
+      @include fontsize(14);
+  //    padding: 20px 0 20px 20px;
+      color: #626262;
+      text-align: left;
+    }
+    // th
     
 
     td{
       @include fontsize(14);
       padding: 20px 0;
+      color: #626262;
+      text-align: left;
     }
-  }
+    // td
 
-
-
-      
   } 
   //main
   

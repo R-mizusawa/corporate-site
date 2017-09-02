@@ -238,21 +238,21 @@ header {
           padding-right: 10px; } }
   #contents .container #main .company_title {
     margin-bottom: 0; }
+  #contents .container #main tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit; }
   #contents .container #main th {
     font-size: 14px;
     font-size: 1.4rem;
-    padding: 20px 0 20px 20px;
-    color: #626262; }
-  #contents .container #main table {
-    border-collapse: collapse; }
-    #contents .container #main table tr {
-      display: table-row;
-      vertical-align: inherit;
-      border-color: inherit; }
-    #contents .container #main table td {
-      font-size: 14px;
-      font-size: 1.4rem;
-      padding: 20px 0; }
+    color: #626262;
+    text-align: left; }
+  #contents .container #main td {
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 20px 0;
+    color: #626262;
+    text-align: left; }
   @media (min-width: 551px) {
     #contents .container #sidebar .three-columns {
       padding-bottom: 20px;
