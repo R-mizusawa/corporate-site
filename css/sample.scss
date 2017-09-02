@@ -374,21 +374,19 @@ header{
 
 #contents{
 
+  padding-top: 20px;
+
   @media (min-width: 551px) {
     padding: 35px 0 70px 0;
   }
 
 
   .container{
-    position: relative;
-    padding: 0 20px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-    
+
   
   #main{
-
+  
+    
       h2{
         text-align: left;
         @include fontsize(15);
@@ -415,9 +413,11 @@ header{
     }
     // li
   }
-  // .news_lists
+  // .news_li
 
   @media (min-width: 550px) {
+
+    padding-right: 20px;
 
     h2{
       @include fontsize(20);
@@ -428,11 +428,12 @@ header{
 
       li{
         @include fontsize(15);
-        margin-bottom: 20px;
+        padding-bottom: 5px;
 
         span{
           display: inline;
           margin-bottom: 0px;
+          padding-right: 10px;
         }
       }
       // li
@@ -441,6 +442,41 @@ header{
 
   }
   // min-width: 551px
+
+    .company_title{
+        margin-bottom: 0;
+  }
+
+
+    th{
+      @include fontsize(14);
+      padding: 20px 0 20px 20px;
+      color: #626262;
+    }
+    // th
+    
+
+    table{
+      
+      border-collapse: collapse;
+    
+
+
+    tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    }
+    
+
+    td{
+      @include fontsize(14);
+      padding: 20px 0;
+    }
+  }
+
+
+
       
   } 
   //main
@@ -497,14 +533,6 @@ header{
     }
     //pc_sidemenu
 
-      .fb-page{
-        span{
-          vertical-align: bottom; 
-          width: auto; 
-          height: 300px;
-          // position: absolute;
-        }
-      }
     }
   //#sidebar
   

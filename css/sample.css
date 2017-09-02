@@ -197,15 +197,11 @@ header {
         display: inline;
         margin-bottom: 0px; } }
 
-@media (min-width: 551px) {
-  #contents {
-    padding: 35px 0 70px 0; } }
-#contents .container {
-  position: relative;
-  padding: 0 20px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 960px; }
+#contents {
+  padding-top: 20px; }
+  @media (min-width: 551px) {
+    #contents {
+      padding: 35px 0 70px 0; } }
   #contents .container #main h2 {
     text-align: left;
     font-size: 15px;
@@ -226,17 +222,37 @@ header {
       display: block;
       margin-bottom: 3px; }
   @media (min-width: 550px) {
-    #contents .container #main h2 {
-      font-size: 20px;
-      font-size: 2rem;
-      padding-bottom: 20px; }
-    #contents .container #main .news_li li {
-      font-size: 15px;
-      font-size: 1.5rem;
-      margin-bottom: 20px; }
-      #contents .container #main .news_li li span {
-        display: inline;
-        margin-bottom: 0px; } }
+    #contents .container #main {
+      padding-right: 20px; }
+      #contents .container #main h2 {
+        font-size: 20px;
+        font-size: 2rem;
+        padding-bottom: 20px; }
+      #contents .container #main .news_li li {
+        font-size: 15px;
+        font-size: 1.5rem;
+        padding-bottom: 5px; }
+        #contents .container #main .news_li li span {
+          display: inline;
+          margin-bottom: 0px;
+          padding-right: 10px; } }
+  #contents .container #main .company_title {
+    margin-bottom: 0; }
+  #contents .container #main th {
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 20px 0 20px 20px;
+    color: #626262; }
+  #contents .container #main table {
+    border-collapse: collapse; }
+    #contents .container #main table tr {
+      display: table-row;
+      vertical-align: inherit;
+      border-color: inherit; }
+    #contents .container #main table td {
+      font-size: 14px;
+      font-size: 1.4rem;
+      padding: 20px 0; }
   @media (min-width: 551px) {
     #contents .container #sidebar .three-columns {
       padding-bottom: 20px;
@@ -271,10 +287,6 @@ header {
     @media (min-width: 551px) {
           #contents .container #sidebar .pc_sidemenu li a {
             text-decoration: none; } }
-  #contents .container #sidebar .fb-page span {
-    vertical-align: bottom;
-    width: auto;
-    height: 300px; }
   @media (min-width: 551px) {
     #contents .container {
       width: 80%; } }
